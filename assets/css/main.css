@@ -2222,8 +2222,6 @@ input, select, textarea {
 		border-bottom: none;
 		position: relative;
 		display: inline-block;
-		width: 100px; /* width for image */
-		height: 100px; /* height for image */
 		background-size: cover; /* Ensure the image covers the entire element */
 		background-position: center; /* Center the image */
 		background-repeat: no-repeat; /* Prevent the image from repeating */
@@ -2231,13 +2229,38 @@ input, select, textarea {
 
 		.icon.image-replacement {
 			background-image: url('images/bank.jpg'); 
+			width: 125px; /* width for image */
+			height: 125px; /* height for image */
 		}
 		.icon.image-replacement2 {
 			background-image: url('images/cards.jpg');
+			width: 125px; /* width for image */
+			height: 125px; /* height for image */
 		}
 		.icon.image-replacement3 {
 			background-image: url('images/money.jpg');
+			width: 125px; /* width for image */
+			height: 125px; /* height for image */
 		}
+
+		.icon.image-replacement4 {
+			background-image: url('images/Radio.webp');
+			width: 125px; /* width for image */
+			height: 125px; /* height for image */
+		}
+
+		.icon.image-replacement5 {
+			background-image: url('images/hackathon.png');
+			width: 125px; /* width for image */
+			height: 125px; /* height for image */
+		}
+
+		.icon.image-replacement6 {
+			background-image: url('images/garden.png');
+			width: 125px; /* width for image */
+			height: 125px; /* height for image */
+		}
+
 
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
@@ -2266,6 +2289,17 @@ input, select, textarea {
 
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
+			
+		}
+
+		.icon.brands2:before {
+			font-family:'Font Awesome 5 Brands';
+			content: '\f08c';
+		}
+
+		.icon.brands3:before {
+			font-family:'Font Awesome 5 Brands';
+			content: '\e07b';
 		}
 
 		.icon.major {
@@ -3388,9 +3422,9 @@ input, select, textarea {
 		#main input[type="button"],
 		#main button,
 		#main .button {
-			background-color: transparent;
+			background-color: #270b0b;
 			box-shadow: inset 0 0 0 1px #dddddd;
-			color: #636363 !important;
+			color: #bdb8b8 !important;
 		}
 
 			#main input[type="submit"]:hover,
@@ -3795,3 +3829,4 @@ input, select, textarea {
 			}
 
 		}
+
