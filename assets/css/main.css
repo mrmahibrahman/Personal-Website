@@ -1825,6 +1825,9 @@ input, select, textarea {
 	}
 
 /* Button */
+	.button-spacing {
+		margin-right: 20px; /* Adjust the value to your preferred spacing */
+	}
 
 	input[type="submit"],
 	input[type="reset"],
@@ -2257,6 +2260,24 @@ input, select, textarea {
 
 		.icon.image-replacement6 {
 			background-image: url('images/garden.png');
+			width: 125px; /* width for image */
+			height: 125px; /* height for image */
+		}
+
+		.icon.image-replacement7 {
+			background-image: url('images/customer.webp');
+			width: 125px; /* width for image */
+			height: 125px; /* height for image */
+		}
+
+		.icon.image-replacement8 {
+			background-image: url('images/inventory.png');
+			width: 125px; /* width for image */
+			height: 125px; /* height for image */
+		}
+
+		.icon.image-replacement9 {
+			background-image: url('../../images/flashcards.png');
 			width: 125px; /* width for image */
 			height: 125px; /* height for image */
 		}
